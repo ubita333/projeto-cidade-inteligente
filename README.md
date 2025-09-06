@@ -63,6 +63,6 @@ const int ldrPin = A0;      // Entrada do divisor de tensão com LDR
 const int ledPin = 13;      // LED indicador de escuridão
 
 
-## Esquema do Circuito
+Imagem do Circuito
 
-![Esquema do Circuito](assets/circuito.png)
+![assetscircuitopng](https://github.com/user-attachments/assets/ca3a992b-8f6c-446c-aa83-d8b2e74f32fa)
