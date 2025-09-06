@@ -8,13 +8,6 @@ Sistema simples e funcional utilizando um **sensor LDR** para detectar a luminos
 Este projeto utiliza um divisor de tensão com um LDR (Light Dependent Resistor) e um resistor comum para medir a intensidade de luz ambiente. A leitura analógica é comparada com um valor de referência (`darkThreshold`) e, se estiver abaixo desse limite, um LED é aceso indicando que está escuro.
 
 
- Demonstração
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/ubita333/projeto-cidade-inteligente/main/demo.gif" alt="Demonstração do funcionamento do sensor de luz com LDR" width="500"/>
-</p>
-
-
  Funcionalidades
 
 -  Leitura em tempo real da intensidade de luz.
@@ -68,3 +61,8 @@ Luz: 320
 
 const int ldrPin = A0;      // Entrada do divisor de tensão com LDR
 const int ledPin = 13;      // LED indicador de escuridão
+
+
+## Esquema do Circuito
+
+![Esquema do Circuito](assets/circuito.png)
